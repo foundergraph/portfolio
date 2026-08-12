@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Wil'le — a portfolio of software, systems and hand-made things.">
+<title>Wil'le — Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="nav-brand" href="#top">Wil'le<span>.</span></a>
+  <div class="nav-links">
+    <a href="#work">Work</a>
+    <a href="#art">Art</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <p class="hero-overline">Wil'le</p>
+  <h1 class="hero-title">Software with a<br>sense of <em>composition</em>.</h1>
+  <p class="hero-sub">I design and build calm, considered tools — planning agents,
+  schedulers, and the space between code and craft.</p>
+  <a class="hero-cta" href="#work">View the work</a>
+</header>
+
+<main>
+
+  <!-- ── Work ───────────────────────────────────────────── -->
+  <section class="section work" id="work">
+    <p class="section-overline">Work</p>
+    <h2 class="section-title">Products, quietly.</h2>
+
+    <article class="project reveal">
+      <a class="project-visual tile-bento" href="https://github.com/foundergraph/planner">
+        <span class="tile-name">Bento</span>
+      </a>
+      <div class="project-body">
+        <h3 class="project-title">Bento</h3>
+        <p class="project-tag">Daily planning agent</p>
+        <p class="project-desc">A planning agent that learns how you think about a day —
+        your projects, your tasks, your rhythm — and keeps them in one calm place.
+        It runs in the browser, and as a small desktop app you can download.</p>
+        <a class="project-link" href="https://github.com/foundergraph/planner">Open →</a>
+      </div>
+    </article>
+
+    <article class="project project-reverse reveal">
+      <a class="project-visual tile-molly" href="#work">
+        <span class="tile-name">Molly</span>
+      </a>
+      <div class="project-body">
+        <h3 class="project-title">Molly</h3>
+        <p class="project-tag">Meeting scheduler</p>
+        <p class="project-desc">A scheduler that handles the back-and-forth for you —
+        sharing time, handling the invite, staying out of the way. Effortless
+        booking that feels like one less thing to think about.</p>
+        <a class="project-link" href="#work">Open →</a>
+      </div>
+    </article>
+
+    <article class="project reveal">
+      <a class="project-visual tile-hunt" href="https://github.com/foundergraph/jobhunt">
+        <span class="tile-name">Hunt</span>
+      </a>
+      <div class="project-body">
+        <h3 class="project-title">Hunt</h3>
+        <p class="project-tag">Job-search kanban</p>
+        <p class="project-desc">Job hunting is already loud. Hunt is a calmer way to
+        move applications forward — a board for the search, an agent for the
+        writing, and a little more clarity in between.</p>
+        <a class="project-link" href="https://github.com/foundergraph/jobhunt">Open →</a>
+      </div>
+    </article>
+  </section>
+
+  <!-- ── Art ─────────────────────────────────────────────── -->
+  <section class="section art" id="art">
+    <p class="section-overline">Art</p>
+    <h2 class="section-title">Made by hand.</h2>
+    <p class="section-lede">Pieces in progress. Select a slot to drop in the work.</p>
+
+    <div class="gallery">
+      <figure class="art-tile reveal tile-1"><figcaption><span>01</span>Study in red</figcaption></figure>
+      <figure class="art-tile reveal tile-2"><figcaption><span>02</span>Signal / noise</figcaption></figure>
+      <figure class="art-tile reveal tile-3"><figcaption><span>03</span>Quiet grid</figcaption></figure>
+      <figure class="art-tile reveal tile-4"><figcaption><span>04</span>Composition, II</figcaption></figure>
+      <figure class="art-tile reveal tile-5"><figcaption><span>05</span>Afternoon</figcaption></figure>
+      <figure class="art-tile reveal tile-6"><figcaption><span>06</span>Resting</figcaption></figure>
+    </div>
+  </section>
+
+  <!-- ── About ───────────────────────────────────────────── -->
+  <section class="section about" id="about">
+    <p class="section-overline">About</p>
+    <h2 class="section-title">The person behind the marks.</h2>
+    <p class="about-body reveal">
+      I build software the way you'd compose a page — with restraint, intention,
+      and a sense of how it will feel. I make things that people use every day,
+      and I make things by hand to remind myself why. This site is a small gallery
+      of both.
+    </p>
+    <p class="about-skills reveal">
+      <span>Product &amp; systems design</span>
+      <span>FastAPI &amp; agent tooling</span>
+      <span>Typography &amp; interface craft</span>
+    </p>
+  </section>
+
+  <!-- ── Contact ─────────────────────────────────────────── -->
+  <section class="section contact" id="contact">
+    <p class="section-overline">Contact</p>
+    <h2 class="section-title">Say hello.</h2>
+    <div class="contact-links">
+      <a href="mailto:hello@wille.dev">Email</a>
+      <a href="https://github.com/foundergraph" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© <span id="year">2026</span> Wil'le. Made with restraint.</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
