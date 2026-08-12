@@ -201,91 +201,6 @@ a{ color:inherit; text-decoration:none; }
 }
 .contact-links a:hover{ color:var(--accent); }
 
-/* ── Nav CTA (ecosystem page) ──────────────────────────────────────────── */
-.nav-cta{
-  padding:8px 18px;
-  border-radius:980px;
-  background:var(--accent); color:#fff;
-  font-weight:600;
-  opacity:1;
-}
-.nav-cta:hover{ opacity:.92; }
-
-/* ── Ecosystem: how it works ───────────────────────────────────────────── */
-.how-grid{
-  display:grid;
-  grid-template-columns:repeat(3, 1fr);
-  gap:clamp(18px, 2.5vw, 32px);
-}
-.how-card{
-  background:var(--soft);
-  border-radius:var(--radius);
-  padding:clamp(24px, 3vw, 36px);
-}
-.how-num{
-  font-size:.8rem; font-weight:600; letter-spacing:.18em;
-  color:var(--accent);
-}
-.how-card h3{
-  margin-top:18px;
-  font-size:clamp(1.15rem, 2vw, 1.4rem);
-  font-weight:600; letter-spacing:-.01em;
-}
-.how-card p{
-  margin-top:12px;
-  color:var(--ink-2); font-size:.98rem; line-height:1.6;
-}
-
-/* ── Ecosystem: apps store ─────────────────────────────────────────────── */
-.apps{ max-width:960px; }
-.app-row{
-  display:flex; align-items:center; gap:24px;
-  padding:clamp(20px, 3vw, 28px) 0;
-  border-top:1px solid var(--soft);
-}
-.app-meta{ flex:0 0 200px; }
-.app-name{
-  font-size:clamp(1.2rem, 2.2vw, 1.5rem);
-  font-weight:600; letter-spacing:-.015em;
-}
-.app-tag{
-  margin-top:4px;
-  font-size:.78rem; font-weight:600; letter-spacing:.08em;
-  text-transform:uppercase; color:var(--muted);
-}
-.app-desc{
-  flex:1;
-  color:var(--ink-2); font-size:1rem; max-width:44ch;
-}
-.app-badge{
-  flex:0 0 auto;
-  padding:8px 18px;
-  border-radius:980px;
-  border:1px solid var(--soft);
-  background:var(--ground);
-  font-size:.85rem; font-weight:600; color:var(--ink-2);
-}
-
-/* ── Ecosystem: memory ─────────────────────────────────────────────────── */
-.memory{
-  background:var(--soft);
-  border-radius:var(--radius);
-  padding:clamp(36px, 6vw, 72px);
-  text-align:center;
-}
-.memory-title{
-  max-width:22ch;
-  margin-left:auto; margin-right:auto;
-  margin-bottom:24px;
-}
-.memory-body{
-  max-width:52ch;
-  margin:0 auto;
-  color:var(--ink-2);
-  font-size:clamp(1.05rem, 2vw, 1.25rem);
-  line-height:1.7;
-}
-
 /* ── Footer ────────────────────────────────────────────────────────────── */
 .footer{
   text-align:center;
@@ -311,14 +226,10 @@ html.js .reveal.is-visible{
   .project{ grid-template-columns:1fr; }
   .project-reverse .project-visual{ order:0; }
   .project-reverse .project-body{ order:1; }
-  .how-grid{ grid-template-columns:1fr; }
-  .app-row{ flex-direction:column; align-items:flex-start; gap:10px; }
-  .app-meta{ flex-basis:auto; }
   .nav-links{ gap:18px; font-size:.9rem; }
 }
 @media (max-width: 520px){
   .nav-brand{ font-size:1.05rem; }
-  .nav-links .nav-cta{ display:none; }
 }
 
 /* ── Reduced motion ────────────────────────────────────────────────────── */
