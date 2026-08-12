@@ -15,21 +15,10 @@ stack).
 - **Hunt** — job-search kanban → https://github.com/foundergraph/jobhunt
 - **Molly** — meeting scheduler → repo URL pending
 
-## Adding artwork
+## Adding content later
 
-The gallery's six tiles are designed placeholders. To drop in a real piece:
-
-1. Copy the image into `assets/` (e.g. `assets/art-01.jpg`).
-2. In `index.html`, replace the tile's classes with an `<img>`:
-
-   ```html
-   <figure class="art-tile reveal">
-     <img src="assets/art-01.jpg" alt="Study in red" loading="lazy">
-     <figcaption><span>01</span>Study in red</figcaption>
-   </figure>
-   ```
-
-3. Remove the `tile-N` gradient class from the figure (the image fills the card).
+- **Images / art / screenshots:** drop files into `assets/` and reference them
+  from `index.html` (`<img src="assets/...">`). The folder is already tracked.
 
 ## Editing content
 

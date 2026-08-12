@@ -43,13 +43,6 @@
     });
   }
 
-  // Art tiles are placeholders today; clicking shows a gentle hint.
-  document.querySelectorAll(".art-tile").forEach(function (tile) {
-    tile.addEventListener("click", function () {
-      tile.classList.add("is-visible"); // safe no-op; reserved for real images
-    });
-  });
-
   // Keep the footer year current.
   var year = document.getElementById("year");
   if (year) {
